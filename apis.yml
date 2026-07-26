@@ -1,8 +1,23 @@
 aid: diamond-foundry
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diamond-foundry.png
 name: Diamond Foundry
-description: 'Diamond Foundry is a company surfaced as a portfolio company of obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: planetary-health. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Diamond Foundry is a deep-tech materials company that manufactures semiconductor-grade
+  single-crystal diamond wafers and diamond transistors to overcome the thermal limits of silicon in
+  AI chips, datacenters, and electric vehicles. The company operates its own foundries and has built a
+  full technology stack for producing diamond at scale as a sustainable substrate for high-performance
+  and power electronics. It is tracked in the API Evangelist network as a planetary-health portfolio
+  company of Obvious Ventures; it publishes no public developer API or documentation at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/diamond-foundry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Planetary Health
+- Semiconductors
+- Diamonds
+- Materials Science
+- Manufacturing
+- Deep Tech
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/diamond-foundry-domain-security.yml
 - type: Website
-  url: https://diamondfoundry.com
+  url: https://www.df.com/
+- type: PrivacyPolicy
+  url: https://www.df.com/privacy-policy
+- type: Blog
+  url: https://www.df.com/insights
+- type: Support
+  url: https://www.df.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
